@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: maroon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: maroon;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#quote-box{
+    /* border: 2px solid red; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    min-height: 40vh;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#author{
+    font-weight: 400;
+}
+
+#new-quote{
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: maroon;
+    cursor: pointer;
+    color: white
+}
+
+#tweet-quote{
+    text-decoration: none;
+    text-overflow: none;
+    color: white;
+    background-color: maroon;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+}
